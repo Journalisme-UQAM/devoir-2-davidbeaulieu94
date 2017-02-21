@@ -87,7 +87,7 @@ moud=list()
 for ligne in lignes:
 
 #Puisqu'il y a plusieurs façons d'écrire doctorat dans le csv, il faut plusieurs filtres afin de regrouper tous les doctorats sous le mot Doctorat
-    if 'D' in ligne[6]:
+    if 'D.' in ligne[6]:
         moud.append('Doctorat')
     elif 'PhD' in ligne[6]:
         moud.append('Doctorat')
